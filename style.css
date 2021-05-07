@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+section{
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    padding-top: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+.desc{
+    max-width: 400px;
+}
+
+.desc p{
+    font-size: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    border-radius: .2em;
+}
+
+.hire{
+    margin-left: -.5rem;
+}
+
+.card .card-img-top{
+    height: 230px;
+}
+
+figure img{
+    width: 50px;
+    height: 50px;
+}
+
+.image{
+    display: none;
+    background-color: rgb(27, 27, 27);
+    background-repeat: no-repeat;
+    background-image: url("assets/person.png");
+    width: 200px;
+    height: 400px;
+    background-position-x: center;
+}
+
+.background-img{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(27, 27, 27);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: url("assets/person.png");
+    background-position-x: left;
+}
+
+#project{
+    background-color: #f3f4f5;
+}
+
+#contacts{
+    background-color:  #f3f4f5;
+}
+
+footer{
+    height: 4rem;
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+}
+
+footer .social-media{
+    margin-top: -10px;
+}
+
+footer .social-media i{
+    width: 30px;
+}
+
+#home h1{
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }  
+}
+
+
+@media screen and (max-width: 600px){
+    .background-img{
+        display: none;
+        width: 500px;
+    }
+
+    .image{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .background-img{
+        display: none;
+        width: 500px;
+    }
+
+    .image{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .background-img{
+        width: 500px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .background-img{
+        width: 300px;
+        z-index: -1 ;
+    }
+}
